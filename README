@@ -1,0 +1,45 @@
+Name: Xubin Lou
+Lab section: MW 12:30pm
+ 
+This is a Catapult game.
+In each round of the game, the computer places a target at a randomized distance from the catapult. 
+You will aims your catapult by setting the launch angle and velocity. 
+The computer then computes the trajectory of the projectile and the location at which it hits the ground. 
+You get scores from hitting the target and messages about the result of each shot.
+The game continues through successive rounds until you enter quit to exit.
+
+When enter the game, you can see a catapult which has existed with default value of angle (45 degree)and velocity(50 m/s), and randomly generated information about the catapult's quality and target distance.
+Then, the computer will ask you "What to do?". After this, you can input commands.
+There are several commands you can use for setting the value of factors and achieving some actions.
+
+If you enter "set angle X", in which X is a number value of angle in degree you want to use in the catapult.
+Warning:the required range of angle is from 0 to 90 degrees. If you enter a value out of range, the computer will tell you this warning and let you reenter a numeric value of angle again.
+
+If you enter "set velocity Y", in which Y is a number value of velocity in m/s you want to use in the catapult.
+Warning: The required range of angle is from 0 to 100 m/s. If you enter a value out of range, the computer will tell you this warning and let you reenter a numeric value of velocity again.
+
+If you enter "fire!", you can execute a shot to the target, then the system will give the result of the shot in words like ""You missed — way too far!","You missed — too far!","You missed — way too short!","You missed — too short!","Perfect hit!","Good hit!","Hit!".
+With the feedback from computer, you can adjust your angle and velocity of the catapult to make it more likely to hit the target.
+In each round of the game, you normally have 5 chance to shot.
+After 5 shots, the computer will tell you "Round complete" and show whole score in this round and your best score overall.
+If you still enter "fire!" after the five shots, the computer will remind you that the round is over so that you can reset it to begin a new round for play.
+
+If you enter "score", the computer will display current and best scores overall.
+
+If you enter "inspect", the computer will tell you the quality of the catapult and the target distance in words, and also launch angle and velocity, so that you can know more details about this catapult you are using and do some adjustment later.
+
+If you enter "reset", the computer will reset all aspects of the game except best score.
+
+If you enter "quit", you can exit the game.
+
+If the user want to use some shortcuts to make the game easier, they may enter commands as following:
+If you enter "cheat", the computer displays catapult quality and target distance numerically.
+If you enter "cheat X", the computer firstly displays current numeric catapult quality and target distance, and then sets remaining shots to X.
+If you enter "cheat X Y", the computer firstly displays currrent numeric catapult quality and target distance, and then sets remaining shots to X and catapult quality to Y.
+If you enter "cheat X Y Z", the computer firstly displays current numeric quality and distance, and then sets remaining shots to X, catapult quality to Y and target distance to Z in m.
+Warning: catapult quality between 1 and 10. Target distance between 50m and 1000m. So, if the numeric value of quality Y and distance Z is out of range, the computer will tell you this warning and let you reenter a numeric value of quality and distance.
+
+Tips:
+The commands you enter are case insensitive. 
+If what you enter is not shown as given style of command, the computer will find and tell you in words that what you enter is not available for computer to understand, thus you may need to reenter a new command consistent with the given command form.
+Wish you enjoy the Game!
